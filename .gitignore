@@ -25,4 +25,4 @@ yarn-error.log*
 
 .env
 
-./utils/constant.js
+/utils/constants.js

@@ -83,9 +83,9 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute">
-        <img className="object-cover" src={BG_URL} alt="logo" />
-      </div>
+      <div className="absolute inset-0">
+    <img className="object-cover w-full h-full" src={BG_URL} alt="logo" />
+  </div>
       <form
         onSubmit={(e) => e.preventDefault()}
         className="w-full md:w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80"

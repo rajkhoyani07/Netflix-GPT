@@ -26,3 +26,5 @@ yarn-error.log*
 .env
 
 /utils/constants.js
+# Local Netlify folder
+.netlify
